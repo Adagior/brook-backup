@@ -1,6 +1,9 @@
 # brook-backup
 brook-backup
 
+https://github.com/txthinking/brook
+
+
 server
 ```
 firewall-cmd --zone=public --permanent --add-port=9797/tcp
@@ -14,6 +17,8 @@ exit
 ```
 
 windows .bat
+
+https://github.com/txthinking/brook/releases/download/v20190601/brook_windows_amd64.exe
 ```
 @echo off  
 start cmd /k C:\brook_windows_amd64.exe ssclient -l 127.0.0.1:2333 -i 127.0.0.1 -s 1.2.3.4:9797 -p password
