@@ -12,9 +12,9 @@ systemctl restart firewalld.service
 
 wget https://github.com/txthinking/brook/releases/download/v20190601/brook
 chmod a+x brook
-nohup ./brook ssserver -l :9797 -p password >/dev/null 2>&1 &
+nohup ./brook_linux_amd64 ssserver -l :9797 -p password >/dev/null 2>&1 &
 or
-nohup ./brook server -l :9797 -p password >/dev/null 2>&1 &
+nohup ./brook_linux_amd64 server -l :9797 -p password >/dev/null 2>&1 &
 exit
 ```
 
